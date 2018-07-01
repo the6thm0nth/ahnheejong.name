@@ -1,23 +1,28 @@
-# ahnheejong.name
+# the6thm0nth.net
 
-> me myself and i
+Mangwon-dong Basketballer & [FTTO](https://ftto.kr) Coordinator
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
-$ npm install # Or yarn
+$ yarn
 
 # serve with hot reload at localhost:3000
-$ npm run dev
+$ yarn start
 
-# build for production and launch server
-$ npm run build
-$ npm start
+# build for production
+$ yarn build
 
-# deploy to gh-pages (i'll make this into a script one day, i promise)
-$ npm run generate
+# deploy to gh-pages
+$ yarn generate
 $ git add dist/
 $ git commit -m 'wow such deploy wow'
 $ git subtree push --prefix dist origin gh-pages
 ```
+
+## Powered by
+
+- [Nuxt.js](https://ko.nuxtjs.org)
+- [Github Pages](https://pages.github.com/)
+- Amazing Programmer, [Heejong Ahn](https://github.com/heejongahn)
