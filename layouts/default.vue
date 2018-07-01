@@ -5,15 +5,15 @@
       <nuxt class="page" />
       <footer class="footer">
         <div class="email">
-          <a href="mailto:heejongahn@gmail.com">heejongahn@gmail.com</a>
+          <a href="mailto:the6thm0nth@pm.me">the6thm0nth@pm.me</a>
         </div>
         <div class="twitter">
-          <a href="https://twitter.com/heejongahn">twitter</a>
+          <a href="https://twitter.com/the6thm0nth">twitter</a>
         </div>
         <small>
-          this site (<a target="_blank" href="https://github.com/heejongahn/ahnheejong.name">source code</a>) is powered by
+          this site (<a target="_blank" href="https://github.com/the6thm0nth/the6thm0nth.github.io">source code</a>) is powered by
           <a href="https://nuxtjs.org/">Nuxt.js</a>,
-          <a href="https://pages.github.com/">Github Pages</a> and 🍺
+          <a href="https://pages.github.com/">Github Pages</a> and Amazing Programmer, <a href="http://ahnheejong.name/" target="_blank">Heejong Ahn</a>
         </small>
       </footer>
     </div>

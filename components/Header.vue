@@ -1,7 +1,6 @@
 <template>
   <header>
-    <nuxt-link to="/" :class="$style.name">ahn
-      heejong
+    <nuxt-link to="/" :class="$style.name">Hoony Chang
     </nuxt-link>
     <div
       @click="navToggleClicked()"
@@ -17,17 +16,11 @@
       <nuxt-link to="/articles/" :class="$style.navLink" :active-class="$style.active">
         <span @click="navCollapse()" :class="$style.navEmoji">📝</span><span :class="$style.navLabel">articles</span>
       </nuxt-link>
-      <nuxt-link to="/palette/" :class="$style.navLink" :active-class="$style.active">
-        <span @click="navCollapse()" :class="$style.navEmoji">🎨</span><span :class="$style.navLabel">palette</span>
-      </nuxt-link>
     </nav>
-    <octahedron :class="$style.octahedron" />
   </header>
 </template>
 
 <script>
-import Octahedron from '~/components/Octahedron'
-
 export default {
   data () {
     return {
@@ -54,9 +47,6 @@ export default {
   beforeDestroy () {
     window.removeEventListener('click', this.closeHandler)
     window.removeEventListener('touchend', this.closeHandler)
-  },
-  components: {
-    octahedron: Octahedron
   }
 }
 </script>
