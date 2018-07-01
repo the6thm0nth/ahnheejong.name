@@ -1,11 +1,13 @@
 {
-  "name": "ahnheejong.name",
+  "name": "the6thm0nth.net",
   "version": "1.0.0",
-  "description": "me myself and i",
-  "author": "Heejong Ahn <heejongahn@gmail.com>",
+  "description": "The 6th",
+  "author": "Hoony Chang <the6thm0nth@outlook.com>",
   "private": true,
   "dependencies": {
+    "@nuxtjs/axios": "^5.3.1",
     "@nuxtjs/google-analytics": "^1.0.0",
+    "add": "^2.0.6",
     "axios": "^0.16.2",
     "marked": "^0.3.6",
     "mz": "^2.6.0",
@@ -15,12 +17,12 @@
     "sass-loader": "^6.0.6",
     "three": "^0.86.0",
     "typescript": "^2.6.2",
-    "vue-template-compiler": "^2.3.4"
+    "vue-template-compiler": "^2.3.4",
+    "yarn": "^1.7.0"
   },
   "scripts": {
-    "dev": "nuxt",
+    "start": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
     "generate": "nuxt generate; echo ahnheejong.name > dist/CNAME",
     "deploy": "git push; git subtree push --prefix dist gh-pages master",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
