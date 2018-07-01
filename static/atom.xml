@@ -1,95 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE the6thm0nth [
+  <!ENTITY url "https://the6thm0nth.net">
+  <!-- .... -->
+]>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://ahnheejong.name</id>
-  <title>ahnheejong.name articles</title>
-  <link href="http://ahnheejong.name/" />
-  <link href="http://ahnheejong.name/atom.xml" rel="self"/>
-  <updated>2017-11-18T15:00+09</updated>
+  <id>&url;</id>
+  <title>Hoony's articles</title>
+  <link href="&url;" />
+  <link href="&url;/atom.xml" rel="self"/>
+  <updated>2018-06-30T15:00+09</updated>
   <author>
-    <name>Ahn Heejong</name>
-    <email>heejongahn@gmail.com</email>
-    <uri>http://ahnheejong.name/</uri>
+    <name>Hoony Chang</name>
+    <email>the6thm0nth@pm.me</email>
+    <uri>&url;</uri>
   </author>
 
   <entry>
-    <title>함께 일할 UI Developer를 찾습니다</title>
-    <link href="http://ahnheejong.name/articles/looking-for-ui-developer" />
-    <id>http://ahnheejong.name/articles/looking-for-ui-developer"</id>
-    <updated>2018-05-23T21:00+09</updated>
-    <summary>비바리퍼블리카에서 저와 함께 토스를 만들어 갈 웹 프론트엔드 개발자를 찾습니다.</summary>
-  </entry>
-
-  <entry>
-    <title>『자바스크립트 개발자를 위한 타입스크립트』 공개</title>
-    <link href="http://ahnheejong.name/articles/introducing-ts-for-jsdev" />
-    <id>http://ahnheejong.name/articles/introducing-ts-for-jsdev"</id>
-    <updated>2018-05-19T21:00+09</updated>
-    <summary>책의 일부를 선공개하며 앞으로의 연재 일정을 공유합니다.</summary>
-  </entry>
-
-
-  <entry>
-    <title>프로그래머로서의 성장을 도왔던 태도들</title>
-    <link href="http://ahnheejong.name/articles/becoming-better-programmer" />
-    <id>http://ahnheejong.name/articles/becoming-better-programmer"</id>
-    <updated>2018-05-06T21:00+09</updated>
-    <summary>저를 더 나은 프로그래머로 만들어 주었던 태도들에 대해 이야기합니다.</summary>
-  </entry>
-
-  <entry>
-    <title>React를 Vue.js보다 선호하는 이유</title>
-    <link href="http://ahnheejong.name/articles/why-i-prefer-react-over-vuejs" />
-    <id>http://ahnheejong.name/articles/why-i-prefer-react-over-vuejs"</id>
-    <updated>2018-03-03T21:00+09</updated>
-    <summary>최근 가장 뜨거운 두 프론트엔드 라이브러리 중 React를 더 선호하는 이유를 정리 해 보았습니다.</summary>
-  </entry>
-
-  <entry>
-    <title>ECMAScript와 TC39</title>
-    <link href="http://ahnheejong.name/articles/ecmascript-tc39" />
-    <id>http://ahnheejong.name/articles/ecmascript-tc39/</id>
-    <updated>2017-12-24T21:00+09</updated>
-    <summary>자바스크립트 언어의 표준인 ECMAScript와 TC39에 대해 소개합니다.</summary>
-  </entry>
-
-  <entry>
-    <title>play.node 2017 발표기</title>
-    <link href="http://ahnheejong.name/articles/playnode-2017" />
-    <id>http://ahnheejong.name/articles/playnode-2017/</id>
-    <updated>2017-11-12T21:00+09</updated>
-    <summary>play.node 2017에서의 생애 첫 컨퍼런스 발표기.</summary>
-  </entry>
-
-  <entry>
-    <title>타입과 타입 시스템 : 기본 개념</title>
-    <link href="http://ahnheejong.name/articles/types-basic-concepts" />
-    <id>http://ahnheejong.name/articles/types-basic-concepts/</id>
-    <updated>2017-10-24T21:00+09</updated>
-    <summary>[타입과 타입 시스템] 연재 두 번째 글. 타입에 관한 기본 개념들을 다룬다.</summary>
-  </entry>
-
-  <entry>
-    <title>타입과 타입 시스템 : 연재를 시작하며</title>
-    <link href="http://ahnheejong.name/articles/types-intro" />
-    <id>http://ahnheejong.name/articles/types-intro/</id>
-    <updated>2017-10-11T21:00+09</updated>
-    <summary>[타입과 타입 시스템] 연재 첫 번째 글. 연재의 동기와 연재 게획을 다룬다.</summary>
-  </entry>
-
-  <entry>
-    <title>The XY Problem</title>
-    <link href="http://ahnheejong.name/articles/the-xy-problem" />
-    <id>http://ahnheejong.name/articles/the-xy-problem/</id>
-    <updated>2017-09-18T21:00+09</updated>
-    <summary>누구나 한 번쯤 빠지기 쉬운 XY Problem 소개.</summary>
-  </entry>
-
-  <entry>
-    <title>나의 버건디 팔면체 : Three.js를 사용한 3D 그래픽스 입문기</title>
-    <link href="http://ahnheejong.name/articles/my-first-octahedron" />
-    <id>http://ahnheejong.name/articles/my-first-octahedron/</id>
-    <updated>2017-07-10T21:00+09</updated>
-    <summary>Three.js를 이용해 3D 그래픽스에 입문하면서 배운 기초 지식 정리.</summary>
+    <title>에이전시에서 품질관리하기</title>
+    <link href="/articles/quality-control-at-agency" />
+    <id>&url;/articles/quality-control-at-agency"</id>
+    <updated>2018-05-11T00:00+09</updated>
+    <summary>에어진서 업계에서 품질 관리를 위해 노력했던 시도를 기록해보았습니다.</summary>
   </entry>
 
 </feed>
