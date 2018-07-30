@@ -1,6 +1,7 @@
-const axios = require("axios");
-const title = "the6thm0nth.net";
-const url = "https://the6thm0nth.net";
+const path = require("path")
+const axios = require("axios")
+const title = "the6thm0nth.net"
+const url = "https://the6thm0nth.net"
 
 const meta = {
   "og:locale": "ko_kR",
@@ -18,7 +19,7 @@ const meta = {
   "twitter:card": "summary_large_image",
   "twitter:image": `${url}/logo.png`,
   "twitter:creator": "Hoony Chang"
-};
+}
 
 module.exports = {
   /*
@@ -52,15 +53,15 @@ module.exports = {
   */
   generate: {
     routes: function() {
-      return axios(`/blog/index.json`, { responseType: "json" }).then(r => {
-        return r.data.map(article => {
-          const route = {
-            route: `/articles/${article.slug}`,
-            payload: article
-          };
-          return route;
-        });
-      });
+      const blog = require("./static/blog/index.json")
+
+      return blog.map(article => {
+        const route = {
+          route: `/articles/${article.slug}`,
+          payload: article
+        }
+        return route
+      })
     }
   },
   build: {
@@ -74,7 +75,7 @@ module.exports = {
           test: /\.(js|vue)$/,
           loader: "eslint-loader",
           exclude: /(node_modules)/
-        });
+        })
       }
     }
   },
@@ -88,4 +89,4 @@ module.exports = {
       }
     ]
   ]
-};
+}
