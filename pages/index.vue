@@ -21,6 +21,8 @@
 
           대표 프로젝트
           - <a href="http://jaesan.newstapa.org/" target="_blank">고위공직자 재산공개 사이트</a>
+          - <a href="https://ftto.kr/defol" target="_blank">Defol: An image file management app for Designers</a>
+          - <a href="https://ftto.kr/amigo" target="_blank">Amigo: Naver Papago Client for Mac OS</a>
           - <a href="#" target="_blank">국회의원 감시하기 (8월 15일 공개예정)</a>
         </div>
       </section>
