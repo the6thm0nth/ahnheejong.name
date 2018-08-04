@@ -13,7 +13,7 @@
       <nuxt-link to="/" :class="$style.navLink" :exact-active-class="$style.active">
         <span @click="navCollapse()" :class="$style.navEmoji">🏡</span><span :class="$style.navLabel">home</span>
       </nuxt-link>
-      <nuxt-link to="/articles/" :class="$style.navLink" :active-class="$style.active">
+      <nuxt-link to="/articles" :class="$style.navLink" :active-class="$style.active">
         <span @click="navCollapse()" :class="$style.navEmoji">📝</span><span :class="$style.navLabel">articles</span>
       </nuxt-link>
     </nav>
@@ -22,39 +22,39 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       navCollapsed: true
     }
   },
   methods: {
-    navToggleClicked: function () {
+    navToggleClicked: function() {
       this.navCollapsed = !this.navCollapsed
     },
-    navCollapse: function () {
+    navCollapse: function() {
       this.navCollapsed = true
     },
-    closeHandler: function (e) {
+    closeHandler: function(e) {
       if (!this.$el.contains(e.target)) {
         this.navCollapsed = true
       }
     }
   },
-  mounted () {
-    window.addEventListener('click', this.closeHandler)
-    window.addEventListener('touchend', this.closeHandler)
+  mounted() {
+    window.addEventListener("click", this.closeHandler)
+    window.addEventListener("touchend", this.closeHandler)
   },
-  beforeDestroy () {
-    window.removeEventListener('click', this.closeHandler)
-    window.removeEventListener('touchend', this.closeHandler)
+  beforeDestroy() {
+    window.removeEventListener("click", this.closeHandler)
+    window.removeEventListener("touchend", this.closeHandler)
   }
 }
 </script>
 
 <style module lang="scss">
-@import '~assets/variables';
-@import '~assets/media-query';
-@import '~assets/placeholders';
+@import "~assets/variables";
+@import "~assets/media-query";
+@import "~assets/placeholders";
 
 $header-height: 60px;
 $nav-link-size: 40px;
@@ -185,7 +185,7 @@ header {
   @extend %reset-anchor-style;
   @extend %nav-link-base;
   display: flex;
-  transition: transform,opacity 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: transform, opacity 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 
   opacity: 0;
   pointer-events: none;
