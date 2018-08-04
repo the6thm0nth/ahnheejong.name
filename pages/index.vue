@@ -21,8 +21,8 @@
 
           대표 프로젝트
           - <a href="http://jaesan.newstapa.org/" target="_blank">고위공직자 재산공개 사이트</a>
-          - <a href="https://ftto.kr/defol" target="_blank">Defol: An image file management app for Designers</a>
-          - <a href="https://ftto.kr/amigo" target="_blank">Amigo: Naver Papago Client for Mac OS</a>
+          - <a href="https://ftto.kr/defol" target="_blank">Defol: 이미지 관리 도구</a>
+          - <a href="https://ftto.kr/amigo" target="_blank">Amigo: 맥용 Naver Papago 클라이언트</a>
           - <a href="#" target="_blank">국회의원 감시하기 (8월 15일 공개예정)</a>
         </div>
       </section>
@@ -48,19 +48,6 @@
     </main>
     <main id="main-en" class="main" v-if="lang === 'en'">
       <section class="bio">
-        <h2>welcome</h2>
-        <div class="section-content">
-          <!-- good to see you! i'm ahn heejong.
-          i live in seoul and i make websites.
-          i am:
-          <ul>
-            <li>admirer of those who admire beautiful things.</li>
-            <li>beer, book and triple double u enthusiast.</li>
-            <li>feminist.</li>
-          </ul> -->
-        </div>
-      </section>
-      <section class="work">
         <h2>👨‍💻</h2>
         <div class="section-content">
           <a />cooridnator & creator of <a target="_blank" href="https://ftto.kr">FTTO</a>, the first Korean software development label of the underscene.
@@ -68,6 +55,8 @@
 
           Projects
           - <a href="http://jaesan.newstapa.org/" target="_blank">Public Officials' Property Search Site</a>
+          - <a href="https://ftto.kr/defol" target="_blank">Defol: An image file management app for Designers</a>
+          - <a href="https://ftto.kr/amigo" target="_blank">Amigo: Naver Papago Client for Mac OS</a>
           - <a href="#" target="_blank">Gookgam(: Monitoring the Assembly Members) (15th Aug 2018)</a>
         </div>
       </section>
@@ -92,14 +81,14 @@
 
 <script>
 export default {
-  data () {
-    return { lang: 'ko' }
+  data() {
+    return { lang: "ko" }
   },
-  mounted () {
+  mounted() {
     this.$refs.container.parentElement.scrollTop = 0
   },
   methods: {
-    setLang: function (lang) {
+    setLang: function(lang) {
       this.lang = lang
     }
   }
@@ -107,8 +96,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '~assets/media-query';
-@import '~assets/placeholders';
+@import "~assets/media-query";
+@import "~assets/placeholders";
 
 .language-selector {
   cursor: pointer;
