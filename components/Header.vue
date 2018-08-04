@@ -13,7 +13,7 @@
       <nuxt-link to="/" :class="$style.navLink" :exact-active-class="$style.active">
         <span @click="navCollapse()" :class="$style.navEmoji">🏡</span><span :class="$style.navLabel">home</span>
       </nuxt-link>
-      <nuxt-link to="/articles" :class="$style.navLink" :active-class="$style.active">
+      <nuxt-link to="/articles/" :class="$style.navLink" :active-class="$style.active">
         <span @click="navCollapse()" :class="$style.navEmoji">📝</span><span :class="$style.navLabel">articles</span>
       </nuxt-link>
     </nav>

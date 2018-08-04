@@ -12,18 +12,18 @@
 </template>
 
 <script>
-import { getHead } from '~/utils'
+import { getHead } from "~/utils"
 
-const title = 'the6thm0nth.net'
-const url = 'https://the6thm0nth.net'
+const title = "the6thm0nth.net"
+const url = "https://the6thm0nth.net/articles"
 
 export default {
-  async asyncData ({ app }) {
-    const r = await app.$axios(`/blog/index.json`, { responseType: 'json' })
+  async asyncData({ app }) {
+    const r = await app.$axios(`/blog/index.json`, { responseType: "json" })
     return { articles: r.data }
   },
   head: getHead(title, url),
-  mounted () {
+  mounted() {
     this.$refs.container.parentElement.scrollTop = 0
     const { articles } = this
     const storeArticles = {}
@@ -32,14 +32,14 @@ export default {
       storeArticles[article.slug] = article
     })
 
-    this.$store.commit('setArticles', storeArticles)
+    this.$store.commit("setArticles", storeArticles)
   }
 }
 </script>
 
 <style module lang="scss">
-@import '~assets/media-query';
-@import '~assets/placeholders';
+@import "~assets/media-query";
+@import "~assets/placeholders";
 
 .atomFeed {
   font-weight: bold;
@@ -91,5 +91,4 @@ export default {
   background-color: rgba(#000000, 0.1);
   margin-right: 8px;
 }
-
 </style>
