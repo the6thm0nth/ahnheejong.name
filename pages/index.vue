@@ -17,13 +17,14 @@
         <h2>👨‍💻</h2>
         <div class="section-content">
           <a />한국의 언더씬 개발 레이블 <a target="_blank" href="https://ftto.kr">FTTO</a>의 코디네이터이자 창작자입니다.
-          Node, React, Electron을 다룹니다.
+          Node, React, Electron을 다룹니다.<br />
 
-          대표 프로젝트
+          <h5>대표 프로젝트</h5>
           - <a href="http://jaesan.newstapa.org/" target="_blank">고위공직자 재산공개 사이트</a>
           - <a href="https://ftto.kr/defol" target="_blank">Defol: 이미지 관리 도구</a>
           - <a href="https://ftto.kr/amigo" target="_blank">Amigo: 맥용 Naver Papago 클라이언트</a>
-          - <a href="#" target="_blank">국회의원 감시하기 (8월 15일 공개예정)</a>
+          - <a href="https://aki-kitchen.ftto.kr" target="_blank">아키식당</a>
+          - <a href="https://gookgam.com" target="_blank">국회의원 감시하기</a>
         </div>
       </section>
       <section class="value">
@@ -53,11 +54,12 @@
           <a />cooridnator & creator of <a target="_blank" href="https://ftto.kr">FTTO</a>, the first Korean software development label of the underscene.
           I use Node, React, Electron.
 
-          Projects
+          <h5>Projects</h5>
           - <a href="http://jaesan.newstapa.org/" target="_blank">Public Officials' Property Search Site</a>
           - <a href="https://ftto.kr/defol" target="_blank">Defol: An image file management app for Designers</a>
           - <a href="https://ftto.kr/amigo" target="_blank">Amigo: Naver Papago Client for Mac OS</a>
-          - <a href="#" target="_blank">Gookgam(: Monitoring the Assembly Members) (15th Aug 2018)</a>
+          - <a href="https://aki-kitchen.ftto.kr" target="_blank">Aki's Kitchen</a>
+          - <a href="https://gookgam.com" target="_blank">Gookgam(: Monitoring the Assembly Members)</a>
         </div>
       </section>
       <section class="value">
