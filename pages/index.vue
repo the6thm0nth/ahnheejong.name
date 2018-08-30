@@ -46,6 +46,15 @@
           더 자세한 내용은 <nuxt-link to="/resume/">이력서</nuxt-link>를 참고하세요. -->
         </div>
       </section>
+
+      <section class="activities">
+        <h2>🤹‍♂️</h2>
+        <div class="section-content">
+          <a />
+          <a href="https://developer.mozilla.org/ko/profiles/hoony" target="_blank">MDN web docs 번역</a><br />
+          <a href="http://hacks.mozilla.or.kr/author/shigerc/" target="_blank">모질라 hacks 블로그 번역</a>
+        </div>
+      </section>
     </main>
     <main id="main-en" class="main" v-if="lang === 'en'">
       <section class="bio">
@@ -75,6 +84,15 @@
           <a />I play the basketball at Team WAMANG(Wow-mountain + Mangwon-dong), the coed basketball team.
           We play at Gym in the Ewha University without distiction of age, sex or skill.
           I like leadership & evernything of <a href="https://www.youtube.com/watch?v=2hIrbnVx4k4" target="_blank">Curry</a>, fancy of <a href="https://www.youtube.com/watch?v=2CXtbafZT0c" target="_blank">Irving</a>, and rookie <a href="https://www.youtube.com/watch?v=gv3eYk8mnE0" target="_blank">Markelle Fultz</a>, <strike>and shopping basketball stuffs.</strike>
+        </div>
+      </section>
+
+      <section class="activities">
+        <h2>🤹‍♂️</h2>
+        <div class="section-content">
+          <a />
+          <a href="https://developer.mozilla.org/ko/profiles/hoony" target="_blank">MDN web docs translation</a><br />
+          <a href="http://hacks.mozilla.or.kr/author/shigerc/" target="_blank">Mozilla hacks blog translation</a>
         </div>
       </section>
     </main>
