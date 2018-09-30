@@ -90,8 +90,7 @@ module.exports = {
     ]
   ],
   api: {
-    baseURL: isProd =>
-      isProd ? "https://the6thm0nth.net" : "http://127.0.0.1:3000"
+    baseURL: "https://the6thm0nth.net"
   },
   axios: {
     proxyHeaders: false,
