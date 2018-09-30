@@ -88,5 +88,13 @@ module.exports = {
         id: "UA-102906433-1"
       }
     ]
-  ]
+  ],
+  api: {
+    baseURL: isProd =>
+      isProd ? "https://the6thm0nth.net" : "http://127.0.0.1:3000"
+  },
+  axios: {
+    proxyHeaders: false,
+    credentials: false
+  }
 }

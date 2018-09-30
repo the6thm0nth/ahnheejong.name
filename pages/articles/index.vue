@@ -19,7 +19,11 @@ const url = "https://the6thm0nth.net/articles"
 
 export default {
   async asyncData({ app }) {
-    const r = await app.$axios(`/blog/index.json`, { responseType: "json" })
+    const r = await app.$axios(
+      `/blog/index.json`,
+      // `https://raw.githubusercontent.com/the6thm0nth/blog/master/index.json`,
+      { responseType: "json" }
+    )
     return { articles: r.data }
   },
   head: getHead(title, url),
