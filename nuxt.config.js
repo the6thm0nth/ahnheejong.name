@@ -1,5 +1,3 @@
-const path = require("path")
-const axios = require("axios")
 const title = "the6thm0nth.net"
 const url = "https://the6thm0nth.net"
 
@@ -82,18 +80,14 @@ module.exports = {
   modules: [
     [
       "@nuxtjs/axios",
+      {
+        baseURL: "https://the6thm0nth.net"
+      },
       "@nuxtjs/google-analytics",
       {
         ua: "UA-121696619-1",
         id: "UA-102906433-1"
       }
     ]
-  ],
-  api: {
-    baseURL: "https://the6thm0nth.net"
-  },
-  axios: {
-    proxyHeaders: false,
-    credentials: false
-  }
+  ]
 }
