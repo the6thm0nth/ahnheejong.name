@@ -1,4 +1,4 @@
-# [요약]] Cross-Origin Resource Sharing 요청이 어떻게 어플리케이션 성능에 영향을 미치는가?
+# [요약] Cross-Origin Resource Sharing 요청이 어떻게 어플리케이션 성능에 영향을 미치는가?
 
 ## 출처
 

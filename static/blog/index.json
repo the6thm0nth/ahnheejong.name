@@ -1,7 +1,7 @@
 [
   {
     "slug": "how-Cross-Origin-Resource-Sharing-requests-affect-your-apps-performance",
-    "title": "[요약]] Cross-Origin Resource Sharing 요청이 어떻게 어플리케이션 성능에 영향을 미치는가?",
+    "title": "[요약] Cross-Origin Resource Sharing 요청이 어떻게 어플리케이션 성능에 영향을 미치는가?",
     "description": "freeCodeCamp에 올라온 'How Cross-Origin Resource Sharing requests affect your app’s performance' 글을 간단히 요약한 글",
     "date": "2018-10-01",
     "tags": ["CORS", "SPA", "performance"]
