@@ -44,14 +44,14 @@ HTML Link 엘리먼트에 정의하는 `preload`, `prefetch`, `preconnect` 등�
 
 - DNS 로부터 IP 주소를 미리 찾아놓는다(DNS lookup). 각종 CDN 자원들에 활용하면 좋다.
 - 브라우저 호환성
-  [<img src="/imgaes/resource-hint/dns-prefetch-browser-compatibility.png" />](https://caniuse.com/#search=dns-prefetch)
+  [<img src="/images/resource-hint/dns-prefetch-browser-compatibility.png" />](https://caniuse.com/#search=dns-prefetch)
 - 예제
 
 ```html
  <link rel="dns-prefetch" href="//www.google-analytics.com">
 ```
 
-#### pretender
+#### prerender
 
 - `link prefetch`와 비슷하나 차이점은 백그라운드 작업으로 `prerender` 된 모든 페이지를 그린다. 따라서 매우 무거운 페이지를 설정하는 경우 유의해서 사용해야 한다.
 - 브라우저 호환성
