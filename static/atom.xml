@@ -23,4 +23,13 @@
     <summary>freeCodeCamp에 올라온 'How Cross-Origin Resource Sharing requests affect your app’s performance' 글을 간단히 요약한 글</summary>
   </entry>
 
+  <entry>
+    <title>Resource Hint: Preload & Prefetch & Preconnect</title>
+    <link href="/articles/resource-hint" />
+    <id>&url;/articles/resource-hint"</id>
+    <updated>2018-10-07T00:00+09</updated>
+    <summary>Resource Hint란 HTML Link 엘리먼트에 정의하는 `preload`, `prefetch`, `preconnect` 등을 말한다. 개발자나 자원을 제공하는 서버 측에서는 이를 통해 사용자 에이전트로 하여금 어느 자원이 필요한지 판단할 수 있어 성능 향상을 돕는다.</summary>
+  </entry>
+
+
 </feed>

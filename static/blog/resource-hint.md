@@ -1,4 +1,4 @@
-# Preload & Prefetch & Preconnect
+# Resource Hint: Preload & Prefetch & Preconnect
 
 ## Resource Hint 란?
 
