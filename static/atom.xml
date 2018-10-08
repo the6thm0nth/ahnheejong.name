@@ -8,7 +8,7 @@
   <title>Hoony's articles</title>
   <link href="&url;" />
   <link href="&url;/atom.xml" rel="self"/>
-  <updated>2018-06-30T15:00+09</updated>
+  <updated>2018-10-08T15:00+09</updated>
   <author>
     <name>Hoony Chang</name>
     <email>the6thm0nth@pm.me</email>
@@ -16,16 +16,26 @@
   </author>
 
   <entry>
+    <id>/articles/you-dont-know-js-scope-closure-ch1</id>
+    <title>[요약] You Don’t Know JS: Scope & Closure - Chapter 1</title>
+    <link href="/articles/you-dont-know-js-scope-closure-ch1" />
+    <updated>2018-10-08T15:00+09</updated>
+    <summary>You Don't Know JS의 Scope & Closure 파트 중 Chapter 1을 간단히 요약한 글.</summary>
+  </entry>
+
+  <entry>
+    <id>/articles/resource-hint</id>
     <title>Resource Hint: Preload & Prefetch & Preconnect</title>
     <link href="/articles/resource-hint" />
-    <id>&url;/articles/resource-hint"</id>
-    <updated>2018-10-07T00:00+09</updated>
+    <updated>2018-10-07T15:00+09</updated>
     <summary>Resource Hint란 HTML Link 엘리먼트에 정의하는 `preload`, `prefetch`, `preconnect` 등을 말한다. 개발자나 자원을 제공하는 서버 측에서는 이를 통해 사용자 에이전트로 하여금 어느 자원이 필요한지 판단할 수 있어 성능 향상을 돕는다.</summary>
+  </entry>
 
+  <entry>
+    <id>/articles/how-Cross-Origin-Resource-Sharing-requests-affect-your-apps-performance</id>
     <title>[요약] Cross-Origin Resource Sharing 요청이 어떻게 어플리케이션 성능에 영향을 미치는가?</title>
     <link href="/articles/how-Cross-Origin-Resource-Sharing-requests-affect-your-apps-performance" />
-    <id>&url;/articles/how-Cross-Origin-Resource-Sharing-requests-affect-your-apps-performance"</id>
-    <updated>2018-10-01T00:00+09</updated>
+    <updated>2018-10-01T15:00+09</updated>
     <summary>freeCodeCamp에 올라온 'How Cross-Origin Resource Sharing requests affect your app’s performance' 글을 간단히 요약한 글</summary>
   </entry>
 
