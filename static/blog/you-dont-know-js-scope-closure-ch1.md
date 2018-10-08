@@ -61,7 +61,7 @@ foo(2) // 4
 
 ### 비유
 
-<img src=“https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/scope%20%26%20closures/fig1.png” />
+<img src="https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/scope%20%26%20closures/fig1.png" />
 
 ## Errors
 
