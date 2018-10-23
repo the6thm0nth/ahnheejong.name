@@ -16,6 +16,14 @@
   </author>
 
   <entry>
+    <id>/articles/unicode-encoding</id>
+    <title>Unicode와 Encoding</title>
+    <link href="/articles/unicode-encoding" />
+    <updated>2018-10-24T15:00+09</updated>
+    <summary>Unicode와 Encoding에 대한 요약 정리</summary>
+  </entry>
+
+  <entry>
     <id>/articles/you-dont-know-js-scope-closure-ch1</id>
     <title>[요약] You Don’t Know JS: Scope & Closure - Chapter 1</title>
     <link href="/articles/you-dont-know-js-scope-closure-ch1" />

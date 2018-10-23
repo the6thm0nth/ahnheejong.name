@@ -1,5 +1,12 @@
 [
   {
+    "slug": "unicode-encoding",
+    "title": "Unicode와 Encoding",
+    "description": "Unicode와 Encoding에 대한 요약 정리",
+    "date": "2018-10-24",
+    "tags": ["Unicode", "Encoding", "UTF-8"]
+  },
+  {
     "slug": "you-dont-know-js-scope-closure-ch1",
     "title": "[요약] You Don’t Know JS: Scope & Closure - Chapter 1",
     "description": "You Don't Know JS의 Scope & Closure 파트 중 Chapter 1을 간단히 요약한 글",
