@@ -49,7 +49,7 @@ module.exports = {
   /*
   ** Plugins
   */
-  plugins: ["~/plugins/ga"],
+  // plugins: ["~/plugins/ga"],
   /*
   ** Build configuration
   */
