@@ -16,7 +16,7 @@ const meta = {
   "twitter:url": url,
   "twitter:card": "summary_large_image",
   "twitter:image": `${url}/logo.png`,
-  "twitter:creator": "Hoony Chang"
+  "twitter:creator": "Hoony Chang",
 }
 
 module.exports = {
@@ -31,21 +31,25 @@ module.exports = {
       {
         hid: "description",
         name: "description",
-        content: "Mangwon-dong Basketballer & FTTO Coordinator"
+        content: "Mangwon-dong Basketballer & FTTO Coordinator",
       },
       ...Object.keys(meta).map(name => ({
         hid: name,
         name,
-        content: meta[name]
-      }))
+        content: meta[name],
+      })),
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/the6thm0nth.jpg" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/the6thm0nth.jpg" }],
   },
   css: [{ src: "~assets/style.scss", lang: "scss" }],
   /*
   ** Customize the progress-bar color
   */
   loading: { color: "#3B8070" },
+  /*
+  ** Plugins
+  */
+  plugins: ["~/plugins/ga"],
   /*
   ** Build configuration
   */
@@ -56,11 +60,11 @@ module.exports = {
       return blog.map(article => {
         const route = {
           route: `/articles/${article.slug}`,
-          payload: article
+          payload: article,
         }
         return route
       })
-    }
+    },
   },
   build: {
     /*
@@ -81,13 +85,13 @@ module.exports = {
     [
       "@nuxtjs/axios",
       {
-        baseURL: "https://the6thm0nth.net"
+        baseURL: "https://the6thm0nth.net",
       },
       "@nuxtjs/google-analytics",
       {
         ua: "UA-121696619-1",
-        id: "UA-102906433-1"
-      }
-    ]
-  ]
+        ua: "UA-121696619-1",
+      },
+    ],
+  ],
 }
