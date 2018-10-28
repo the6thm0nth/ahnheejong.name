@@ -53,19 +53,6 @@ module.exports = {
   /*
   ** Build configuration
   */
-  generate: {
-    routes: function() {
-      const blog = require("./static/blog/index.json")
-
-      return blog.map(article => {
-        const route = {
-          route: `/articles/${article.slug}`,
-          payload: article,
-        }
-        return route
-      })
-    },
-  },
   build: {
     /*
     ** Run ESLINT on save
