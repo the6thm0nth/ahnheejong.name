@@ -16,7 +16,7 @@
       <a href="https://www.linkedin.com/in/the6thm0nth/" :class="$style.navLink" :active-class="$style.active" target="_blank">
         <span @click="navCollapse()" :class="$style.navEmoji">🏃‍♂️</span><span :class="$style.navLabel">Linkedin</span>
       </a>
-      <a href="https://medium.com/@the6thm0nth" :class="$style.navLink" :active-class="$style.active" target="_blank">
+      <a href="https://medium.com/the6thblog" :class="$style.navLink" :active-class="$style.active" target="_blank">
         <span @click="navCollapse()" :class="$style.navEmoji">📓</span><span :class="$style.navLabel">Medium</span>
       </a>
     </nav>
