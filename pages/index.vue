@@ -34,6 +34,7 @@
           <a href="https://creativecommons.org" target="_blank">Creative Commons</a>
         </div>
       </section>
+
       <section class="interest">
         <h2>⛹️‍</h2>
         <div class="section-content">
@@ -53,6 +54,16 @@
           <a />
           <a href="https://developer.mozilla.org/ko/profiles/hoony" target="_blank">MDN web docs 번역</a><br />
           <a href="http://hacks.mozilla.or.kr/author/shigerc/" target="_blank">모질라 hacks 블로그 번역</a>
+        </div>
+      </section>
+
+      <section class="speaks">
+        <h2>🤹‍♂️</h2>
+        <div class="section-content">
+          <a />
+          <a href="https://pad.okfn.org/p/Open_Government_Data_updates_from_around_the_world" target="_blank">Open Knowledge Festival 2014</a><br />
+          <a href="https://www.flickr.com/photos/wowcckorea/sets/72157645888886555/" target="_blank">디지털사회혁신포럼 (<a href="https://www.slideshare.net/codenamu/civic-hacker-37302167" target="_blank">발표자료</a>)</a><br />
+          <a href="http://2014con.cckorea.org/program/3/hacking-the-city-with-technology/" target="_blank">2014 CCKOREA Global Conference</a><br />
         </div>
       </section>
     </main>
@@ -95,6 +106,16 @@
           <a href="http://hacks.mozilla.or.kr/author/shigerc/" target="_blank">Mozilla hacks blog translation</a>
         </div>
       </section>
+
+      <section class="speaks">
+        <h2>🤹‍♂️</h2>
+        <div class="section-content">
+          <a />
+          <a href="https://pad.okfn.org/p/Open_Government_Data_updates_from_around_the_world" target="_blank">Open Knowledge Festival 2014</a><br />
+          <a href="https://www.flickr.com/photos/wowcckorea/sets/72157645888886555/" target="_blank">Digital Society Innovation(<a href="https://www.slideshare.net/codenamu/civic-hacker-37302167" target="_blank">Slides</a>)</a><br />
+          <a href="http://2014con.cckorea.org/program/3/hacking-the-city-with-technology/" target="_blank">2014 CCKOREA Global Conference</a><br />
+        </div>
+      </section>
     </main>
   </section>
 </template>
@@ -110,8 +131,8 @@ export default {
   methods: {
     setLang: function(lang) {
       this.lang = lang
-    }
-  }
+    },
+  },
 }
 </script>
 
