@@ -50,6 +50,7 @@ module.exports = {
   ** Plugins
   */
   // plugins: ["~/plugins/ga"],
+  plugins: [{ src: "~plugins/ga.js", ssr: false }],
   /*
   ** Build configuration
   */
