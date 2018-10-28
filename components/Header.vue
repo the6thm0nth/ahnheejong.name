@@ -13,11 +13,11 @@
       <nuxt-link to="/" :class="$style.navLink" :exact-active-class="$style.active">
         <span @click="navCollapse()" :class="$style.navEmoji">🏡</span><span :class="$style.navLabel">home</span>
       </nuxt-link>
+      <a href="https://www.linkedin.com/in/the6thm0nth/" :class="$style.navLink" :active-class="$style.active" target="_blank">
+        <span @click="navCollapse()" :class="$style.navEmoji">🏃‍♂️</span><span :class="$style.navLabel">Linkedin</span>
+      </a>
       <a href="https://medium.com/@the6thm0nth" :class="$style.navLink" :active-class="$style.active" target="_blank">
         <span @click="navCollapse()" :class="$style.navEmoji">📓</span><span :class="$style.navLabel">Medium</span>
-      </a>
-      <a href="https://github.com/the6thm0nth/TIL" :class="$style.navLink" :active-class="$style.active" target="_blank">
-        <span @click="navCollapse()" :class="$style.navEmoji">👨‍🏫</span><span :class="$style.navLabel">TIL(Today I Learned)</span>
       </a>
     </nav>
   </header>
