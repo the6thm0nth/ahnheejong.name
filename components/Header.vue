@@ -13,9 +13,6 @@
       <nuxt-link to="/" :class="$style.navLink" :exact-active-class="$style.active">
         <span @click="navCollapse()" :class="$style.navEmoji">🏡</span><span :class="$style.navLabel">home</span>
       </nuxt-link>
-      <nuxt-link to="/articles" :class="$style.navLink" :active-class="$style.active">
-        <span @click="navCollapse()" :class="$style.navEmoji">📝</span><span :class="$style.navLabel">blog</span>
-      </nuxt-link>
       <a href="https://medium.com/@the6thm0nth" :class="$style.navLink" :active-class="$style.active" target="_blank">
         <span @click="navCollapse()" :class="$style.navEmoji">📓</span><span :class="$style.navLabel">Medium</span>
       </a>
@@ -30,7 +27,7 @@
 export default {
   data() {
     return {
-      navCollapsed: true
+      navCollapsed: true,
     }
   },
   methods: {
@@ -44,7 +41,7 @@ export default {
       if (!this.$el.contains(e.target)) {
         this.navCollapsed = true
       }
-    }
+    },
   },
   mounted() {
     window.addEventListener("click", this.closeHandler)
@@ -53,7 +50,7 @@ export default {
   beforeDestroy() {
     window.removeEventListener("click", this.closeHandler)
     window.removeEventListener("touchend", this.closeHandler)
-  }
+  },
 }
 </script>
 
