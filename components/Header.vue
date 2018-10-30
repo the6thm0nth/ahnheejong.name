@@ -20,6 +20,11 @@
         <span @click="navCollapse()" :class="$style.navEmoji">📓</span><span :class="$style.navLabel">Medium</span>
       </nuxt-link>
     </nav>
+    <div>
+      <nuxt-link to="https://my.fsf.org/donate">
+        <img src="https://static.fsf.org/nosvn/associate/crm/993565.png" alt="FSF" title="FSF Donate" />
+      </nuxt-link>
+    </div>
   </header>
 </template>
 
