@@ -14,24 +14,24 @@
         <span @click="navCollapse()" :class="$style.navEmoji">🏡</span>
         <span :class="$style.navLabel">home</span>
       </nuxt-link>
-      <nuxt-link
-        to="https://www.linkedin.com/in/the6thm0nth/"
+      <a
+        href="https://www.linkedin.com/in/the6thm0nth/"
         :class="$style.navLink"
         :active-class="$style.active"
         target="_blank"
       >
         <span @click="navCollapse()" :class="$style.navEmoji">🏃‍♂️</span>
         <span :class="$style.navLabel">Linkedin</span>
-      </nuxt-link>
-      <nuxt-link
-        to="https://medium.com/the6thblog"
+      </a>
+      <a
+        href="https://medium.com/the6thblog"
         :class="$style.navLink"
         :active-class="$style.active"
         target="_blank"
       >
         <span @click="navCollapse()" :class="$style.navEmoji">📓</span>
         <span :class="$style.navLabel">Medium</span>
-      </nuxt-link>
+      </a>
     </nav>
     <div :class="$style.fsfBadge">
       <nuxt-link to="https://my.fsf.org/donate">
