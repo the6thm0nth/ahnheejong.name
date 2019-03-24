@@ -1,28 +1,45 @@
 <template>
   <header>
-    <nuxt-link to="/" :class="$style.name">Hoony Chang
-    </nuxt-link>
+    <nuxt-link to="/" :class="$style.name">Hoony Chang</nuxt-link>
     <div
       @click="navToggleClicked()"
-      :class="navCollapsed ? $style.navToggle : [$style.navToggle, $style.opened]">
+      :class="navCollapsed ? $style.navToggle : [$style.navToggle, $style.opened]"
+    >
       <div :class="$style.navToggleBar"></div>
       <div :class="$style.navToggleBar"></div>
       <div :class="$style.navToggleBar"></div>
     </div>
     <nav :class="navCollapsed ? $style.nav : [$style.nav, $style.visible]">
       <nuxt-link to="/" :class="$style.navLink" :exact-active-class="$style.active">
-        <span @click="navCollapse()" :class="$style.navEmoji">🏡</span><span :class="$style.navLabel">home</span>
+        <span @click="navCollapse()" :class="$style.navEmoji">🏡</span>
+        <span :class="$style.navLabel">home</span>
       </nuxt-link>
-      <nuxt-link to="https://www.linkedin.com/in/the6thm0nth/" :class="$style.navLink" :active-class="$style.active" target="_blank">
-        <span @click="navCollapse()" :class="$style.navEmoji">🏃‍♂️</span><span :class="$style.navLabel">Linkedin</span>
+      <nuxt-link
+        to="https://www.linkedin.com/in/the6thm0nth/"
+        :class="$style.navLink"
+        :active-class="$style.active"
+        target="_blank"
+      >
+        <span @click="navCollapse()" :class="$style.navEmoji">🏃‍♂️</span>
+        <span :class="$style.navLabel">Linkedin</span>
       </nuxt-link>
-      <nuxt-link to="https://medium.com/the6thblog" :class="$style.navLink" :active-class="$style.active" target="_blank">
-        <span @click="navCollapse()" :class="$style.navEmoji">📓</span><span :class="$style.navLabel">Medium</span>
+      <nuxt-link
+        to="https://medium.com/the6thblog"
+        :class="$style.navLink"
+        :active-class="$style.active"
+        target="_blank"
+      >
+        <span @click="navCollapse()" :class="$style.navEmoji">📓</span>
+        <span :class="$style.navLabel">Medium</span>
       </nuxt-link>
     </nav>
-    <div>
+    <div :class="$style.fsfBadge">
       <nuxt-link to="https://my.fsf.org/donate">
-        <img src="https://static.fsf.org/nosvn/associate/crm/993565.png" alt="FSF" title="FSF Donate" />
+        <img
+          src="https://static.fsf.org/nosvn/associate/crm/993565.png"
+          alt="FSF"
+          title="FSF Donate"
+        >
       </nuxt-link>
     </div>
   </header>
@@ -32,31 +49,31 @@
 export default {
   data() {
     return {
-      navCollapsed: true,
-    }
+      navCollapsed: true
+    };
   },
   methods: {
     navToggleClicked: function() {
-      this.navCollapsed = !this.navCollapsed
+      this.navCollapsed = !this.navCollapsed;
     },
     navCollapse: function() {
-      this.navCollapsed = true
+      this.navCollapsed = true;
     },
     closeHandler: function(e) {
       if (!this.$el.contains(e.target)) {
-        this.navCollapsed = true
+        this.navCollapsed = true;
       }
-    },
+    }
   },
   mounted() {
-    window.addEventListener("click", this.closeHandler)
-    window.addEventListener("touchend", this.closeHandler)
+    window.addEventListener("click", this.closeHandler);
+    window.addEventListener("touchend", this.closeHandler);
   },
   beforeDestroy() {
-    window.removeEventListener("click", this.closeHandler)
-    window.removeEventListener("touchend", this.closeHandler)
-  },
-}
+    window.removeEventListener("click", this.closeHandler);
+    window.removeEventListener("touchend", this.closeHandler);
+  }
+};
 </script>
 
 <style module lang="scss">
@@ -303,6 +320,14 @@ header {
 }
 
 .octahedron {
+  display: none;
+
+  @include wide-screen {
+    display: block;
+  }
+}
+
+.fsfBadge {
   display: none;
 
   @include wide-screen {
