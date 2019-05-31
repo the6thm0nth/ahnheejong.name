@@ -16,21 +16,16 @@
         <div class="section-content">
           <a/>
           <a href="http://www.frograms.com/">Watcha Inc.</a>에서 일하는 프론트엔드 개발자입니다.
-          한국의 언더씬 개발 레이블
-          <a target="_blank" href="https://ftto.kr">FTTO</a>의 코디네이터이자 창작자입니다.
-          작은 서점에서 일하는 바리스타를 꿈꿉니다.
+          한국의 언더씬 개발 레이블 <a target="_blank" href="https://ftto.kr">FTTO</a>의 코디네이터이자 창작자입니다.
+          작은 서점에서 일하는 바리스타를 꿈꿉니다. 간혹 글도 씁니다.
           <br>
 
-          <h4>대표 프로젝트</h4>-
-          <a href="http://jaesan.newstapa.org/" target="_blank">고위공직자 재산공개 사이트</a>
-          -
-          <a href="https://ftto.kr/defol" target="_blank">Defol: 이미지 관리 도구</a>
-          -
-          <a href="https://ftto.kr/amigo" target="_blank">Amigo: 맥용 Naver Papago 클라이언트</a>
-          -
-          <a href="https://aki-kitchen.ftto.kr" target="_blank">아키식당</a>
-          -
-          <a href="https://gookgam.com" target="_blank">국회의원 감시하기</a>
+          <h4>대표 프로젝트</h4>
+          - <a href="http://jaesan.newstapa.org/" target="_blank">고위공직자 재산공개 사이트</a>
+          - <a href="https://ftto.kr/defol" target="_blank">Defol: 이미지 관리 도구(Deprecated)</a>
+          - <a href="https://ftto.kr/amigo" target="_blank">Amigo: 맥용 Naver Papago 클라이언트</a>
+          - <a href="https://aki-kitchen.ftto.kr" target="_blank">아키식당(feat. 더기의 요가클래스)</a>
+          - <a href="https://gookgam.com" target="_blank">국회의원 감시하기(WIP)</a>
         </div>
       </section>
 
@@ -43,13 +38,8 @@
             href="https://www.youtube.com/watch?v=2hIrbnVx4k4"
             target="_blank"
           >커리</a>의 리더쉽과 모든 것,
-          <a href="https://www.youtube.com/watch?v=2CXtbafZT0c" target="_blank">어빙</a>의 화려함, 그리고 신인
-          <a href="https://www.youtube.com/watch?v=gv3eYk8mnE0" target="_blank">마켈 펄츠</a>를
+          포틀랜드의 <a href="https://www.youtube.com/watch?v=ESQSecp036I" target="_blank">데임 타임</a>,
           <strike>농구용품 쇼핑도</strike>좋아합니다.
-          <!-- <a target="_blank" href="https://toss.im/">Toss</a>를 만드는 비바리퍼블리카에서 UI 프로그래머로 일하고 있습니다.
-          강력한 타입 시스템을 가진 언어로 작업하는 것을 선호합니다.
-          요즘은 개발과 디자인, 두 세계를 잇는 데에 관심이 많습니다.
-          더 자세한 내용은 <nuxt-link to="/resume/">이력서</nuxt-link>를 참고하세요.-->
         </div>
       </section>
 
@@ -96,6 +86,7 @@
           <br>
           <a href="https://dotface.kr" target="_blank">닷페이스</a>
           <br>
+          <a href="https://www.opengirok.or.kr/" target="_blank">정보공개센터</a>
         </div>
       </section>
     </main>
@@ -106,7 +97,7 @@
           <a/>cooridnator & creator of
           <a target="_blank" href="https://ftto.kr">FTTO</a>
           , the first Korean software development label of the underscene.
-          I use Node, React, Electron.
+          I use Node, React, Electron. Sometimes, I write.
           <h5>Projects</h5>-
           <a
             href="http://jaesan.newstapa.org/"
@@ -141,12 +132,8 @@
           <a
             href="https://www.youtube.com/watch?v=2hIrbnVx4k4"
             target="_blank"
-          >Curry</a>, fancy of
-          <a href="https://www.youtube.com/watch?v=2CXtbafZT0c" target="_blank">Irving</a>, and rookie
-          <a
-            href="https://www.youtube.com/watch?v=gv3eYk8mnE0"
-            target="_blank"
-          >Markelle Fultz</a>,
+          >Curry</a>,
+          <a href="https://www.youtube.com/watch?v=ESQSecp036I" target="_blank">Dame Time</a> on Portland,
           <strike>and shopping basketball stuffs.</strike>
         </div>
       </section>
@@ -203,6 +190,7 @@
           <br>
           <a href="https://dotface.kr" target="_blank">Dotface</a>
           <br>
+          <a href="https://www.opengirok.or.kr/" target="_blank">The Center for Freedom of Information and Transparent Society</a>
         </div>
       </section>
     </main>
